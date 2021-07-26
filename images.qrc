@@ -1,5 +1,12 @@
 <RCC>
   <qresource prefix="newPrefix">
+    <file>assets/image/161085384_4028971917170348_1595544585493431467_n.jpeg</file>
+    <file>assets/image/audrey.jpeg</file>
+    <file>assets/image/flag.jpeg</file>
+    <file>assets/image/fond-e.jpeg</file>
+    <file>assets/image/fond_identity.jpeg</file>
+    <file>assets/image/france_flag.png</file>
+    <file>assets/image/france.jpeg</file>
     <file>assets/image/seasonal-6.jpg</file>
     <file>assets/image/téléchargement.png</file>
   </qresource>
