@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>assets/image/seasonal-6.jpg</file>
+    <file>assets/image/téléchargement.png</file>
+  </qresource>
+</RCC>
