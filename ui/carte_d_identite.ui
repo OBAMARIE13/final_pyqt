@@ -53,7 +53,7 @@ background-image : url(:/newPrefix/assets/image/161085384_4028971917170348_15955
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap resource="../images.qrc">:/newPrefix/assets/image/audrey.jpeg</pixmap>
+    <pixmap>../assets/image/161085384_4028971917170348_1595544585493431467_n.jpeg</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
