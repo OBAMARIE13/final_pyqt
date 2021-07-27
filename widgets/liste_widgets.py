@@ -3,6 +3,7 @@ import os
 import sqlite3
 from PyQt5 import QtWidgets, QtCore, QtGui
 from PyQt5.uic import loadUiType
+from widgets.carte import CarteId
 
 
 
@@ -13,13 +14,22 @@ class Listes(QtWidgets.QMainWindow, FORM_CLASS):
         super().__init__()
         self.setupUi(self)
         self.getDatas()
+        self.carte_id()
         # self.searchs()
+
+    def carte_id(self):
+        self.btn_carte.clicked.connect(self.shows_)
+
+    def shows_(self):
+        self.window = CarteId()
+        self.window.show() 
+        
 
 
     def getDatas(self):
         db = sqlite3.connect(os.path.join(os.path.dirname("__file__"),"database.db"))
         c = db.cursor()
-        command = """ SELECT * FROM regist  """
+        command = """ SELECT * FROM registre  """
         resultat = c.execute(command)
         self.tableWidget.setRowCount(0)
         for row_number, row_data in enumerate(resultat):

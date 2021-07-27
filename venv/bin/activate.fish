@@ -29,7 +29,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/nan/Desktop/sys_pqt/enrolement_pyqt/systeme_enrolement/enrolement/venv"
+set -gx VIRTUAL_ENV "/Users/nan/Desktop/final_pyqt/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

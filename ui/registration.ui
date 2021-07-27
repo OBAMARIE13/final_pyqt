@@ -383,13 +383,16 @@ font-size :  20px;
    <property name="text">
     <string>Homme</string>
    </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
   </widget>
   <widget class="QRadioButton" name="sexe_f">
    <property name="geometry">
     <rect>
      <x>470</x>
      <y>310</y>
-     <width>71</width>
+     <width>81</width>
      <height>20</height>
     </rect>
    </property>
@@ -408,23 +411,6 @@ font-size :  20px;
      <width>161</width>
      <height>21</height>
     </rect>
-   </property>
-  </widget>
-  <widget class="QLabel" name="sexe_label">
-   <property name="geometry">
-    <rect>
-     <x>380</x>
-     <y>340</y>
-     <width>181</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">border : 1px solid gray;
-font-size : 16px;</string>
-   </property>
-   <property name="text">
-    <string/>
    </property>
   </widget>
  </widget>
